@@ -29,7 +29,7 @@ public final class AdvancedFurnace extends JavaPlugin {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
         String newLine = System.getProperty("line.separator");
-        String blankline = "&f";
+        String blankline = "&b";
 
         if (label.equalsIgnoreCase("advancedfurnace")) {
             if (args.length == 0) {
